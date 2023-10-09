@@ -67,7 +67,7 @@ Password: password
 ---
 
 ## API Documentation
-- Documentation is available at [PostMan](https://documenter.getpostman.com/view/6440758/2s9Y5cug1f)
+- Documentation is available in [Postman](https://documenter.getpostman.com/view/6440758/2s9Y5cug1f)
 
 
 
