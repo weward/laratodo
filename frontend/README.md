@@ -7,6 +7,15 @@ By Roland Edward Santos (dev.weward@gmail.com)
 
 ## Notes
 
+
+- Compatibility
+
+```
+"node": "^18 || ^16 || ^14.19",
+"npm": ">= 6.13.4",
+"yarn": ">= 1.21.1"
+```
+
 - Set the `API` url in the `VITE_API_URL` variable in the `.env` file.
 - API can be found at `./api`
 - This was created using:

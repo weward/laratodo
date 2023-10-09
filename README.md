@@ -24,92 +24,19 @@ GitHub: https://github.com/weward
 
 ## Installation - API
 
-- Clone the Repo
-
-```sh
-git clone <repo-link>
 ```
-- Go to API directory
-
-```
-# API
-
-cd api 
-
+cd api
 ```
 
-- Install dependencies
-
-```sh
-composer install
-```
-
-
-- Update .ENV values
-
-- Generate Security Key
-
-```sh
-php artisan key:generate
-```
-
-
-
-- Migrate the Database
-
-This was developed using MySql
-
-```sh
-php artisan migrate 
-```
-
-- **MUST** - Seed the database
-
-```sh
-php artisan db:seed 
-```
-
-- Run the tests
-
-```sh
-php artisan test 
-```
+[API Installation Instructions](https://github.com/weward/laratodo/blob/master/api/README.md)
 
 ## Installation - Frontend
 
-- Go to FRONTEND directory
-
----
-
-- Compatibility
-
 ```
-"node": "^18 || ^16 || ^14.19",
-"npm": ">= 6.13.4",
-"yarn": ">= 1.21.1"
-```
-
-## Root -> Frontend
-
 cd frontend
-
-- Set `.env` variables
-
-> Set the `API` url in the `VITE_API_URL` variable in the `.env` file at `./frontend`.
-
----
-
-- Install the dependencies
-
-```
-npm install
 ```
 
-- Start the app in dev mode
-
-```
-npm run dev
-```
+[Frontend Installation Instructions](https://github.com/weward/laratodo/blob/master/frontend/README.md)
 
 ### User Credentials
 
